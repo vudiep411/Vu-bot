@@ -1,5 +1,5 @@
 import { Client, Intents, Message, env } from "./deps.js";
-import { generatePic, sendQuotes } from "./utils/function.js";
+import { generatePic, sendQuotes, generateMultiples } from "./utils/function.js";
 import { cuss, cussReply } from "./utils/constants.js";
 
 const client = new Client();
@@ -29,6 +29,14 @@ client.on("messageCreate", async (msg) => {
 
     else if(command === '$quote') {
         sendQuotes(msg)
+    }
+    
+    else if(command === '$generateM') {
+        let promptArr = content.split(' ')
+        promptArr.shift()
+        const prompt = promptArr.join('+')
+        if(prompt) 
+            generateMultiples(prompt, msg)               
     }
 
     for(let i = 0; i < cuss.length; i++) {

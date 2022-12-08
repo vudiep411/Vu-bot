@@ -27,3 +27,17 @@ export const sendQuotes = async (msg) => {
         console.log(error)
     }
 }
+
+export const generateMultiples = async (prompt, msg) => {
+    try {        
+        const res = await fetch(`https://lexica.art/api/v1/search?q=${prompt}`)
+        console.log(res.status)
+        let image = await res.json()
+        image = image.images
+        for(let i = 0; i < 10; i++) {
+            msg.reply(image[i].src)
+        }
+    } catch (error) {
+        console.log(error)
+    }    
+}
