@@ -14,3 +14,6 @@ Simple bot. Will talk shit if you cuss
 ```sh
 deno run --allow-read --allow-env --allow-net --watch mods.js
 ```
+## Overview
+<img src="https://firebasestorage.googleapis.com/v0/b/chatapp-be9bd.appspot.com/o/Screenshot%202022-12-07%20210802.png?alt=media&token=63ec062e-3496-4a55-9c12-e0367990d43b">
+<img src="https://firebasestorage.googleapis.com/v0/b/chatapp-be9bd.appspot.com/o/bot2.png?alt=media&token=a54f69c8-3a83-4170-af71-72ee404da682"/>
