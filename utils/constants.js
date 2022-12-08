@@ -1,0 +1,2 @@
+export const cuss = ["fuck", "bitch", "nigga", "shit", "fuk", "nigger", "whore", "pussy", "fag", "dumbass"]
+export const cussReply = ["Stop cussing u little bitch", "stfu hoe stop cussing", "Stop cussing stupid bitch", "stfu foo stop cussing", "stop cussing dumbass bitch", "stop cuss bitch ass n****"]
