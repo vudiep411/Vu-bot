@@ -11,5 +11,5 @@ Simple bot. Will talk shit if you cuss
 
 2. Run the command
 ```sh
-    deno run --allow-read --allow-env --allow-net --watch mods.js
+deno run --allow-read --allow-env --allow-net --watch mods.js
 ```
