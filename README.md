@@ -3,6 +3,7 @@ Simple bot. Will talk shit if you cuss
 
 ## Commands
 | Command | Arguments | Description |
+|---------|---------------|---------|
 | $generate | your prompt | Generate an image base on your prompt
 | $quote | - | Send a random quote to discord
 
